@@ -19,7 +19,8 @@ var wolframSearchQuery = document.getElementById('wolfram_query').string;
 console.log(wolframSearchQuery);
 
 
-//-------------------
-function httpGet(https:api.fixer.io/) {
+//-------------------api money.js
 
-}
+
+
+//-------------------- quote loop
