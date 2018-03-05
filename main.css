@@ -50,10 +50,11 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.search {
+.search, .quote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .search p {
