@@ -3,7 +3,7 @@ function clock() {
     hours = time.getHours(),
     minutes = time.getMinutes(),
     seconds = time.getSeconds();
-  document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ':' + harold(minutes) + ':' + harold(seconds);
 
   function harold(standIn) {
     if (standIn < 10) {
@@ -17,10 +17,5 @@ setInterval(clock, 1000);
 // ------------------
 var wolframSearchQuery = document.getElementById('wolfram_query').string;
 console.log(wolframSearchQuery);
-
-
 //-------------------api money.js
-
-
-
 //-------------------- quote loop
